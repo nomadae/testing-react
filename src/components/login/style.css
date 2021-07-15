@@ -1,0 +1,46 @@
+.login {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: cornsilk;
+}
+.item {
+    justify-content: center;
+    align-items: center;
+}
+.login h3 {
+    margin: 0 auto;
+    order: 2;
+    font-family: 'Open Sans', sans-serif;
+
+}
+.logo {
+    /*margin-top: -30vh;*/
+    /*width: calc(100% - 5rem);*/
+    /*height: calc(100% - 5rem);*/
+    /*order: 1;*/
+    width:30%;
+    margin: 0 auto;
+    margin-bottom: 60px;
+}
+.login-input {
+    order: 3;
+    margin: 20px auto;
+    width: 33vw;
+
+    /*Quitar esto*/
+    font-weight: normal;
+    font-family: 'Open Sans', sans-serif;
+
+    height: 60px;
+    border: 0;
+    border-radius: 20px;
+    background-color: #f2f2f2;
+    padding: 0 20px;
+    box-shadow: 0 3px 6px rgba(0,0,0, .2);
+    text-transform: uppercase;
+}
+.send {
+    order: 4;
+    width: 16vw;
+}
