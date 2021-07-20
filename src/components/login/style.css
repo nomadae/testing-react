@@ -2,7 +2,9 @@
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    background-color: cornsilk;
+    background-color: white;
+    margin-top: 10vh;
+    margin-bottom: 3vh;
 }
 .item {
     justify-content: center;
@@ -28,9 +30,9 @@
     margin: 20px auto;
     width: 33vw;
 
-    /*Quitar esto*/
-    font-weight: normal;
-    font-family: 'Open Sans', sans-serif;
+    /*!*Quitar esto*!*/
+    /*font-weight: normal;*/
+    /*font-family: 'Open Sans', sans-serif;*/
 
     height: 60px;
     border: 0;
@@ -39,8 +41,28 @@
     padding: 0 20px;
     box-shadow: 0 3px 6px rgba(0,0,0, .2);
     text-transform: uppercase;
+    outline: none;
+    text-align: left;
 }
 .send {
     order: 4;
     width: 16vw;
+    background-color: #0744B7;
+    color: #f2f2f2;
+    font-weight: bold;
+    font-size: larger;
+    text-align: center;
+}
+/*.inputs {*/
+/*    margin: 0 auto;*/
+/*    width: 33vw;*/
+/*}*/
+.login-forgot {
+    order: 5;
+    width: 33vw;
+    margin: 0 auto;
+    border: 0;
+    background-color: white;
+    padding: 5px;
+    color: #0744B7;
 }
